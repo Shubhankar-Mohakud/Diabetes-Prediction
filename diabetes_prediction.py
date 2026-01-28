@@ -384,7 +384,7 @@ def main():
     print("=" * 80)
     
     # Update this path to your CSV file location
-    DATA_PATH = r"Diabetes Prediction\balanced_diabetes.csv"
+    DATA_PATH = r"balanced_diabetes.csv"
     
     # Check if file exists
     if not os.path.exists(DATA_PATH):
